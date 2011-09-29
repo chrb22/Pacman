@@ -1,0 +1,36 @@
+BODY {
+	background-color:black;
+}
+.Board {
+	display: inline;
+	border-collapse: collapse;
+}
+.Board TD {
+	position: relative;
+	width: 1.8em;
+	height: 1.8em;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+.Board TD.Wall {
+	background-color: blue;
+}
+.Board TD.Text {
+	background-color: yellow;
+}
+.Board TD IMG {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 1.8em;
+	height: 1.8em;
+}
+.Toolbox {
+	display: inline;
+	position: relative;
+	
+	margin-left: 2em;
+	border: 1px dotted darkgray;
+	padding: 1em;
+}
